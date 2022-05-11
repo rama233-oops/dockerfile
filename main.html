@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+       <title>MOVIE SEAT BOOKING</title>
+       
+ <script>       
+function ticket()
+{
+var v1=document.getElementById("t3").value;
+if (v1>200)
+{
+alert("ONLY 200 SEATS AVAILABLE");
+}
+else
+{
+alert("total price is :"+200*v1);
+}
+}
+</script>
+</head>
+<center>
+<div >
+        <body bgcolor="palegreen">
+<table height=400 width=600 style='border-radius:40px;background-color:seashell'">
+<tr>
+<th><label>THEATER NAME:</label><th>
+<td><center><select id="t1"><option>satyadurga</option>
+<option>madura</option><option>inox</option>
+<option>poorna</option></select></center></td>
+</tr>
+<tr>
+                   <th>   <label>SELECT A MOVIE:</label></th>
+<td><select id="Movie">
+                 <option value="220">RRR</option>
+                 <option value="320">KGH-2</option>
+                 <option value="250">Radhe Shayam</option>
+                 <option value="260">Sarkar Vari Pata</option> 
+        </select></td>          
+ </tr>    
+<tr>
+<th><label>TIMINGS</label></th>
+<td><input type="radio" name="t2" value="moring show">11:00am-2:00pm</td>
+<td><input type="radio" name="t2" value="matnee">2:30pm-5:30pm</td>
+<td><input type="radio" name="t2" value="first show">6:00pm-9:00pm</td>
+<td><input type="radio" name="t2" value="second show">9:15pm-12:150am</td>
+</tr>
+<tr>
+<th><label>TOTAL SEATS:</label></th>
+<td>200</td>
+</tr>
+<tr>
+<th><label>NO OF SEATS</label></th>
+<td><input type="text" id="t3" valu="seats"></td>
+</tr>
+<tr>
+<td align=center><input type="button" onClick="ticket()" value="SUBMIT"></td>
+</tr>
+</table>
+</body>
+</div>
+</center>
+</html>

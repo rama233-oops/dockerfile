@@ -1,0 +1,22 @@
+
+
+
+a{
+display: inline-block;
+margin:0;
+
+border:0;
+cursor:pointer;
+font-size:25px;
+
+color:red;
+overflow:hidden;
+margin-top:25px;
+transition:2s;
+text-decoration:none;
+}
+
+a:hover{
+color: olive;
+box-shadow: 0 0 50px olive;
+}
